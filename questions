@@ -1,0 +1,87 @@
+CREATE TABLE yop_BAQ_questions (id INTEGER PRIMARY KEY, question_number INTEGER, question TEXT, type TEXT);
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (1, "Safety is a priority for me.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (2, "I can say 'no' when I've had enough to drink.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (3, "I am considering experimenting with drugs I haven't tried before.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (4, "During a night out, I know when my decision-making is impaired.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (5, "People are more likely to want to be around me when I drink or use drugs.", "attitude");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (6, "I know that there are consequences associated with binge drinking.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (7, "Drinking or using drugs is a good stress reliever.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (8, "If a friend is overdosing, I would feel comfortable calling for help.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (9, "Drinking or using drugs makes my problems more tolerable.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (10, "I am familiar with the signs of alcohol and drug abuse and addiction.", "attitude");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (11, "I have more fun when I am drinking or using drugs compared to when I am sober.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (12, "I am comfortable interacting with law enforcement.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (13, "I have taken steps to avoid drinking too much.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (14, "I am more sexually desirable when I am drinking or using drugs.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (15, "I know that there are consequences associated with drug use.", "attitude");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (16, "I fit in better when I drink or use drugs.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (17, "I would reach out for help if I thought my drinking or drug use was getting out of hand.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (18, "I can recognize if a friend has a drinking or drug use problem.", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (19, "If I thought a friend had a problem with drinking or drug use, I would feel comfortable getting them help.	", "attitude");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES(20, "I stick to limits I set for myself (number of drinks, time to stop, etc.)", "attitude");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (21, "I use alcohol or other drugs when I'm in a bad mood or feeling angry", "behavior");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (22, "If it looks like a friend has had enough to drink, I will cut them off.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (23, "I stay aware of what is going on around me.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (24, "I feel ashamed of things that have happened to me while intoxicated.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (25, "I pay attention to the alcohol content of my drinks and know how much alcohol I've consumed.", "behavior");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (26, "I use alcohol or other drugs when I'm lonely.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (27, "When I go out, I have a plan for how I will get home.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (28, "I participate in drinking games.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (29, "I stick with friends throughout the night.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (30, "I take shots.", "behavior");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (31, "I moderate my drinks to about one per hour.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (32, "I use alcohol or other drugs to cope with feeling anxious or nervous.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (33, "I pregame before going out.");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (34, "I make sure to have food in my stomach before I start drinking.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (35, "When I go out, I try to have a sober person in my group.", "behavior");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (36, "I mix alcohol with other drugs.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (37, "I leave a party if it looks like things might get out of hand.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (38, "I keep track of how many drinks I've had.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (39, "I use alcohol or other drugs when I'm feeling sad or depressed.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (40, "I alternate between water and alcoholic drinks when I am drinking.", "behavior");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (41, "I feel ashamed of things I've done or said when I'm intoxicated.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (42, "I ride in vehicles with drivers who have been drinking or using drugs.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (43, "I make sure my friends get home safely.	I have taken steps to avoid drinking too much.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES VALUES (44, "I drink alcohol when I'm stressed.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES VALUES (45, "I can say "no" when I've had enough to drink.", "behavior");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (46, "During a night of drinking, I know when I've reached the point where my decision making ability is impaired.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (47, "If a friend was overdosing, I would feel comfortable calling for help.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (48, "I keep track of how many drinks I've had.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (49, "When I am drinking, I always stick with friends.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (50, "I am unfamiliar with the signs of substance abuse and addiction.", "behavior");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (51, "I alternate between water and alcoholic drinks when I am drinking.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (52, "I avoid drinking when I am in a bad mood.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (53, "I typically pre-game before going out.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (54, "I moderate my drinking to about 1 per hour.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (55, "When I am drinking, I stay aware of what is going on around me.", "behavior");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (56, "If it looks like a friend has had enough to drink, I try to cut them off.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (57, "I avoid taking shots.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (58, "I am comfortable interacting with law enforcement.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (59, "When I go out, I always have a plan for how I will get home.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (60, "I never drink on an empty stomach.", "behavior");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (61, "Safety is a priority for me when I am partying.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (62, "I stick to limits I set for myself.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (63, "When I am out drinking, I always try to have a sober person in my group.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (64, "Safety is a priority for me.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (65, "I often participate in drinking games.", "behavior");
+
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (66, "I leave a party if it looks like things might get out of hand.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (67, "I make sure my friends get home safely.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (68, "I am considering experimentation with drugs other than alcohol.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (69, "I know how much alcohol I've consumed.", "behavior");
+INSERT INTO yop_BAQ_questions (question_number, question, type) VALUES (70, "I would be able to recognize if a friend had a drinking problem.", "behavior");
+
