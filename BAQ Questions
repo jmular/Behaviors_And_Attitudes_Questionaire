@@ -92,3 +92,44 @@ INSERT INTO yop_BAQ_questions (question_number, question, category) VALUES (70, 
 SELECT question_number, question FROM yop_BAQ_questions WHERE category= "attitude";
 
 SELECT question_number, question FROM yop_BAQ_questions WHERE category= "behavior";
+
+/**Actions moving forward, deleting questions that are close duplicates to other questions or were deamed not appropriate or unneeded, determined in meeting**/
+
+DELETE FROM yop_BAQ_questions WHERE question= "I feel ashamed of things I've done or said when I'm intoxicated.";
+DELETE FROM yop_BAQ_questions WHERE question= "I have taken steps to avoid drinking too much.";
+DELETE FROM yop_BAQ_questions WHERE question= "I can say 'no' when I've had enough to drink.";
+DELETE FROM yop_BAQ_questions WHERE question= "I keep track of how many drinks I've had.";
+DELETE FROM yop_BAQ_questions WHERE question= "I alternate between water and alcoholic drinks when I am drinking.";
+DELETE FROM yop_BAQ_questions WHERE question= "I moderate my drinking to about 1 per hour.";
+DELETE FROM yop_BAQ_questions WHERE question= "If it looks like a friend has had enough to drink, I try to cut them off.";
+DELETE FROM yop_BAQ_questions WHERE question= "I am comfortable interacting with law enforcement.";
+DELETE FROM yop_BAQ_questions WHERE question= "When I go out, I always have a plan for how I will get home.";
+DELETE FROM yop_BAQ_questions WHERE question= "I stick to limits I set for myself.";
+DELETE FROM yop_BAQ_questions WHERE question= "I often participate in drinking games.";
+DELETE FROM yop_BAQ_questions WHERE question= "I make sure my friends get home safely.";
+
+SELECT * FROM yop_BAQ_questions;
+
+/**New information regarding presenting additions mentions positive outcomes from using 'misuse' rather than 'abuse', next goal find all questions that contain the word 'abuse'**/
+
+SELECT question_number, question FROM yop_BAQ_questions
+WHERE question LIKE '%abuse%';
+
+UPDATE yop_BAQ_questions
+SET question = "I am familiar with the signs of alochol and drug misuse and addiction"
+WHERE question_number= 10;
+
+UPDATE yop_BAQ_questions
+SET question = "I am unfamiliar with the signs of substance misuse and addiction."
+WHERE question_number = 50;
+
+/**realizing we found another double question**/
+DELETE FROM yop_BAQ_questions WHERE question = "I am unfamiliar with the signs of substance abuse and addiction";
+
+/** Clarifying for a question we want to also include DD's in our count**/
+
+UPDATE yop_BAQ_questions
+SET question = "When I go out, I try to have a sober person or DD (designated driver) in my group."
+WHERE question_number = 63;
+
+SELECT * FROM yop_BAQ_questions;
