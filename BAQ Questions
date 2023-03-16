@@ -1,3 +1,5 @@
+/**Initial creation of the table**/
+
 CREATE TABLE yop_BAQ_questions (id INTEGER PRIMARY KEY, question_number INTEGER, question TEXT, category TEXT);
 
 INSERT INTO yop_BAQ_questions (question_number, question, category) VALUES (1, "Safety is a priority for me.", "attitude");
@@ -131,5 +133,7 @@ DELETE FROM yop_BAQ_questions WHERE question = "I am unfamiliar with the signs o
 UPDATE yop_BAQ_questions
 SET question = "When I go out, I try to have a sober person or DD (designated driver) in my group."
 WHERE question_number = 63;
+
+/** Checking what questions are left to showcase in meeting **/
 
 SELECT * FROM yop_BAQ_questions;
