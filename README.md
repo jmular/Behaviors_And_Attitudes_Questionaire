@@ -1,5 +1,5 @@
 # Youthful Offenders Program 
-UNDER CONSTRUCTION: THANK YOU FOR YOUR PATIENCE AS I UPLOAD OUR SET UP
+UNDER CONSTRUCTION: THANK YOU FOR YOUR PATIENCE
 
 The Youthful Offenders Program is an alcohol and drug education program for persons cited for underage drinking, and similar offenses, in Centre County (PA). 
   Developed by Centre Helps and approved by local District Judges, the program offers offenders an alternative to the standard fine and the permanent criminal record carried by underage drinking.
